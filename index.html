@@ -17,11 +17,12 @@
 		font-family: 'Avenir';
 		position: relative;
 		background-color: #f5f8fa;
+		max-width: 100%;
 	}
 	.grad-container {
 		background: radial-gradient(#e73c7e, #9013FE, #23a6d5, #c8e7fa);
 		background-size: 200% 200%;
-		animation: gradient 7s ease infinite;
+		animation: gradient 12s ease infinite;
 		color: white;
 		min-height: 100vh;
 	}
@@ -58,6 +59,7 @@
 	}
 	.form-control {
 		border: 1px solid lightgray;
+		border-radius: 0;
 	}
 	.navbar {
 		background-color: white !important;
@@ -95,13 +97,15 @@
 	<div data-bs-spy="scroll" data-bs-target="#navbar-clearfrog" class="container-fluid" style="position=relative;" data-bs-offset="0">
 
 	<div class="grad-container row p-3 p-md-5" id="#">
-		<a class="py-5 navbar-brand"><img src="logo.png" alt="ClearFrog AI" width="80%" style="max-width:300px;"></a>
-		<div class="col-md-7 fs-4 fw-light d-flex align-self-center">
+		<a class="pb-5"><img src="logo.png" alt="ClearFrog AI" width="80%" style="max-width:300px;"></a>
+		<div class="col-sm-12 col-md-8 col-lg-7 fs-4 fw-light d-flex align-self-center">
 			<div class="p-0 p-md-4">
 			<h1 class="display-5 fw-bold fs-3">We Are Building the Future of AI for Retail</h1>
-			<p>Interested in how AI can improve your in-store experience? Reach out for a demo!</p>
-			<div class="col-md-8">
-			<form action="https://formspree.io/f/mjvlyedj" method="post">
+			<h5 class="mb-4 d-none d-md-block fw-light">Interested in how AI can improve your in-store experience? Reach out for a demo!</h5>
+			<h6 class="mb-2 d-md-none fw-light">Interested in how AI can improve your in-store experience? Reach out for a demo!</h6>
+			<a class="fs-6 d-md-none" style="color:white;" href="mailto:info@clearfrogai.com">info@clearfrogai.com</a>
+			<div class="col-md-12 col-lg-10 col-xl-8">
+			<form class="d-none d-md-block" action="https://formspree.io/f/mjvlyedj" method="post">
 				<div class="mb-3">
 					<input name="_replyto" id="email" type="email" class="form-control" placeholder="name@example.com">
 				</div>
@@ -133,11 +137,11 @@
 				<div class="col py-5 p-md-0 d-flex justify-content-center">
 					<img src="institutes.png" alt="" width="100%" style="max-width:250px;" class="align-self-center">
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-8 ps-4">
 					<h1 class="display-5 fw-bold fs-3">Company</h1>
-					<p><span>ClearFrog AI</span> was started with a mission to reimagine the future of retail. Recent advances in Artifical Intelligence (AI) have the potential to create unique and engaging customer shopping experiences, and that excites us!</p>
+					<p><span>ClearFrog AI</span> was started with a mission to reimagine the future of retail. Recent advances in Artifical Intelligence (AI) have the potential to create entirely new, unique, and engaging customer shopping experiences, and that excites us!</p>
 					<h6 class="fw-bold pt-3 border-top">Team</h6>
-					<p>We use cutting-edge technology in our retail solutions. Our founders have conducted research at the top institutes globally, including <a href="https://mila.quebec/en/">Mila, the Quebec AI Institute</a> and <a href="https://www.mcgill.ca/">McGill University</a>, and have published in Tier-1 conferences and journals.</p>
+					<p>Our founders have conducted research at the top institutes globally, including <a href="https://mila.quebec/en/">Mila, the Quebec AI Institute</a> and <a href="https://www.mcgill.ca/">McGill University</a>. Their work has pushed the state-of-the-art and been published in Tier-1 conferences and journals. This means that your retail solutions are built on top of the cutting-edge technology in the field.</p>
 				</div>
 			</div>
 		</div>
@@ -180,7 +184,7 @@
 						</div>
 						<h1 class="display-5 fw-bold fs-3">Join Us</h1>
 						<a href="mailto:jobs@clearfrogai.com">jobs@clearfrogai.com</a><br/>
-						<p>Have a passion for retail-technology or a scientific interest in deep representation learning? You may have just found your colony of frogs. Reach out to explore job opportunities with the <span class="fw-bold">ClearFrog AI</span> team.</p>
+						<p>Have a passion for retail-technology or a scientific interest in deep representation learning? You may have just found your colony of frogs. Reach out to explore job opportunities with the ClearFrog AI team.</p>
 					</div>
 				</div>
 				<div class="col"></div>
